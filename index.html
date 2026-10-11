@@ -1,191 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CloudPlay - Cloud Gaming Platform</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="logo">☁️ CloudPlay</div>
-      <div class="nav-links">
-        <a href="#features">Features</a>
-        <a href="#games">Games</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact" class="btn-login">Get Started</a>
-      </div>
-    </div>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FigureCC | Cloud Gaming</title>
+    <meta
+      name="description"
+      content="Cloud gaming platform for instant access to AAA games from any device."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand" aria-label="FigureCC home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>FigureCC</span>
+        </a>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Play Any Game. Anywhere.</h1>
-      <p>Stream premium games directly to your device. No downloads. No waiting.</p>
-      <button class="btn-primary">Start Free Trial</button>
-    </div>
-    <div class="hero-image">
-      <div class="gaming-card">
-        <div class="screen">
-          <span>🎮</span>
+        <nav class="nav" aria-label="Main menu">
+          <a href="#features">Features</a>
+          <a href="#games">Games</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#reviews">Reviews</a>
+          <a class="primary-btn" href="#start">Get Started</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <div class="kicker">Instant Cloud Gaming</div>
+            <h1>
+              Play the latest games<br />
+              <span class="gradient-text">without the hardware.</span>
+            </h1>
+            <p class="hero-copy">
+              Stream AAA titles, competitive shooters, and indie hits directly to your
+              device with ultra-low latency and instant setup.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-btn" href="#start">Start Free Trial</a>
+              <a class="secondary-btn" href="#games">Browse Games</a>
+            </div>
+
+            <div class="hero-meta">
+              <div>
+                <strong>4K</strong>
+                streaming
+              </div>
+              <div>
+                <strong>120fps</strong>
+                gameplay
+              </div>
+              <div>
+                <strong>15ms</strong>
+                latency
+              </div>
+            </div>
+          </div>
+
+          <div class="visual-wrap" aria-hidden="true">
+            <div class="orb a"></div>
+            <div class="orb b"></div>
+
+            <div class="device-glow">
+              <div class="screen">
+                <div class="screen-content">
+                  <div class="game-preview"></div>
+                  <div class="game-ui">
+                    <div class="game-bar">
+                      <span>LIVE</span>
+                      <span class="game-tag">Ultra</span>
+                    </div>
+
+                    <div class="game-panel">
+                      <small>Now Playing</small>
+                      <strong>Cyberpunk</strong>
+                      <span>12.4k online</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Gaming without limits</h2>
+            <p>Access premium cloud gaming features built for smooth, flexible play.</p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <div class="icon">⚡</div>
+              <h3>Ultra-fast streaming</h3>
+              <p>Advanced infrastructure keeps frame delivery smooth for competitive gaming.</p>
+            </article>
+
+            <article class="card">
+              <div class="icon">📱</div>
+              <h3>Works on any device</h3>
+              <p>Play from a laptop, desktop, tablet, or phone with zero heavy installs.</p>
+            </article>
+
+            <article class="card">
+              <div class="icon">🎮</div>
+              <h3>Massive game library</h3>
+              <p>Jump into trending titles, indie favorites, and next-gen blockbusters instantly.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Featured games</h2>
+            <p>Discover the most popular titles available in the cloud.</p>
+          </div>
+
+          <div class="games-grid">
+            <article class="game-item">
+              <div class="game-cover">🎯</div>
+              <div class="game-body">
+                <h3>Cyberpunk 2077</h3>
+                <p>Open-world action RPG</p>
+              </div>
+            </article>
+
+            <article class="game-item">
+              <div class="game-cover">🛡️</div>
+              <div class="game-body">
+                <h3>Elden Ring</h3>
+                <p>Fantasy action adventure</p>
+              </div>
+            </article>
+
+            <article class="game-item">
+              <div class="game-cover">🏆</div>
+              <div class="game-body">
+                <h3>Fortnite</h3>
+                <p>Battle royale action</p>
+              </div>
+            </article>
+
+            <article class="game-item">
+              <div class="game-cover">🚀</div>
+              <div class="game-body">
+                <h3>Starfield</h3>
+                <p>Cosmic exploration</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Simple plans</h2>
+            <p>Choose the plan that matches your gaming needs.</p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <h3>Starter</h3>
+              <div class="price">$5 <small>/ month</small></div>
+              <ul>
+                <li>1080p streams</li>
+                <li>1 device</li>
+                <li>Basic support</li>
+              </ul>
+              <a href="#start" class="secondary-btn">Choose Plan</a>
+            </article>
+
+            <article class="price-card popular">
+              <h3>Pro</h3>
+              <div class="price">$12 <small>/ month</small></div>
+              <ul>
+                <li>4K streaming</li>
+                <li>2 devices</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="#start" class="primary-btn">Choose Plan</a>
+            </article>
+
+            <article class="price-card">
+              <h3>Ultimate</h3>
+              <div class="price">$19 <small>/ month</small></div>
+              <ul>
+                <li>4K/120fps</li>
+                <li>4 devices</li>
+                <li>Premium support</li>
+              </ul>
+              <a href="#start" class="secondary-btn">Choose Plan</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="start" class="cta">
+        <div class="container">
+          <div class="cta-panel">
+            <h2>Ready to play?</h2>
+            <p>Start your free trial and stream your favorite titles instantly.</p>
+            <a href="#" class="primary-btn">Start Free Trial</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© 2025 FigureCC</div>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Support</a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Features Section -->
-  <section id="features" class="features">
-    <h2>Why Choose CloudPlay?</h2>
-    <div class="features-grid">
-      <div class="feature-card">
-        <div class="feature-icon">⚡</div>
-        <h3>Ultra-Fast Streaming</h3>
-        <p>Play with minimal latency. Stream at up to 4K 120fps on supported devices.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">📱</div>
-        <h3>Play Anywhere</h3>
-        <p>Desktop, laptop, tablet, or phone. Pick up where you left off instantly.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">🔓</div>
-        <h3>No Hardware Needed</h3>
-        <p>No expensive gaming PC or console. Any device with internet works.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">🎯</div>
-        <h3>Instant Play</h3>
-        <p>No downloads. No installs. Start playing in seconds.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">🏆</div>
-        <h3>AAA Titles</h3>
-        <p>Access thousands of AAA games, indie titles, and exclusive releases.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">🌍</div>
-        <h3>Global Servers</h3>
-        <p>Servers worldwide mean faster connections and lower latency anywhere.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Games Section -->
-  <section id="games" class="games">
-    <h2>Popular Games</h2>
-    <div class="games-grid">
-      <div class="game-card">
-        <div class="game-cover">🎮</div>
-        <h3>Cyberpunk 2077</h3>
-        <p>Open-world action RPG</p>
-      </div>
-      <div class="game-card">
-        <div class="game-cover">🎮</div>
-        <h3>Elden Ring</h3>
-        <p>Fantasy action game</p>
-      </div>
-      <div class="game-card">
-        <div class="game-cover">🎮</div>
-        <h3>Fortnite</h3>
-        <p>Battle royale</p>
-      </div>
-      <div class="game-card">
-        <div class="game-cover">🎮</div>
-        <h3>FIFA 24</h3>
-        <p>Sports simulation</p>
-      </div>
-      <div class="game-card">
-        <div class="game-cover">🎮</div>
-        <h3>Baldur's Gate 3</h3>
-        <p>Epic fantasy RPG</p>
-      </div>
-      <div class="game-card">
-        <div class="game-cover">🎮</div>
-        <h3>StarField</h3>
-        <p>Space exploration</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing Section -->
-  <section id="pricing" class="pricing">
-    <h2>Simple Pricing</h2>
-    <div class="pricing-grid">
-      <div class="pricing-card">
-        <h3>Starter</h3>
-        <p class="price">$5/mo</p>
-        <ul>
-          <li>✓ 1080p Streaming</li>
-          <li>✓ 20+ Games</li>
-          <li>✓ 1 Device</li>
-          <li>✓ Basic Support</li>
-        </ul>
-        <button class="btn-secondary">Choose Plan</button>
-      </div>
-      <div class="pricing-card featured">
-        <h3>Pro</h3>
-        <p class="price">$12/mo</p>
-        <ul>
-          <li>✓ 4K Streaming</li>
-          <li>✓ 500+ Games</li>
-          <li>✓ 2 Devices</li>
-          <li>✓ Priority Support</li>
-        </ul>
-        <button class="btn-primary">Choose Plan</button>
-      </div>
-      <div class="pricing-card">
-        <h3>Ultimate</h3>
-        <p class="price">$19/mo</p>
-        <ul>
-          <li>✓ 4K 120fps</li>
-          <li>✓ All Games</li>
-          <li>✓ 4 Devices</li>
-          <li>✓ 24/7 Support</li>
-        </ul>
-        <button class="btn-secondary">Choose Plan</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="cta">
-    <h2>Ready to Play?</h2>
-    <p>Join millions of gamers streaming their favorite games.</p>
-    <button class="btn-primary-large">Start Your Free Trial</button>
-  </section>
-
-  <!-- Footer -->
-  <footer id="contact" class="footer">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h4>CloudPlay</h4>
-        <p>The future of gaming is here.</p>
-      </div>
-      <div class="footer-section">
-        <h4>Product</h4>
-        <a href="#">Features</a>
-        <a href="#">Games</a>
-        <a href="#">Pricing</a>
-      </div>
-      <div class="footer-section">
-        <h4>Company</h4>
-        <a href="#">About</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-      </div>
-      <div class="footer-section">
-        <h4>Legal</h4>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Cookies</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2024 CloudPlay. All rights reserved.</p>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
